@@ -19,7 +19,7 @@ const Actor = sequelize.define('actor', {
         allowNull: false
     },
     birthdate: {
-        type: DataTypes.DATE,
+        type: DataTypes.STRING,
         allowNull: false
     },
 });
